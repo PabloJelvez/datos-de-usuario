@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aqua;
+    font-family: "Rubik", sans-serif;
+}
+.divPost{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+} 
+.container{
+    margin-bottom: 100px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    background-color: bisque;
+    width: 100vw;
+    padding: 20px;
+    margin-top: 50px;
+   
+}
